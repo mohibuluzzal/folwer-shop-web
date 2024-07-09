@@ -10,3 +10,51 @@
 body {
     font-family: "Lato", sans-serif;
 }
+
+/* For Banner */
+.banner{
+    max-width: 1440px;
+    height: 565px;
+    background: rgba(229, 84, 115, 0.1);
+    
+}
+.banner-2side-blank{
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+}
+.banner-text-content{
+    width: 50%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.banner-text-content button{
+    width: 100px;
+    height: 35px;
+    margin-right: 440px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(229, 84, 115);
+    border: none;
+}
+.btn{
+    color:white
+}
+#h1{
+    font-weight:900;
+    margin: 0;
+    padding: 0;
+}
+.banner-image-content{
+    width: 50%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+}
+.banner-image-content img{
+    height:560px ;
+}
